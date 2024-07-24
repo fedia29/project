@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior:smooth ;
+}
+p{ 
+    font-weight: 300;
+    color:rgba(11, 1, 20, 0.921);
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 50px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.logo{
+    color:rgba(150, 63, 22, 0.7);
+    font-weight: bold;
+    font-size:larger;
+    text-decoration:none;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    color:rgba(150, 63, 22, 0.7);
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.btn_r{
+    padding: 10px 20px;
+    background:rgba(150, 63, 22, 0.7);
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+
+header .navbar li a:hover{
+    color:rgba(5, 2, 4, 0.87);
+    border-bottom: 2px solid rgba(11, 1, 20, 0.921);
+
+}
+
+
+
+
+
+
+.welcome{
+    position:relative;
+    width:100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./imageprojet/welcomme.jpg);
+    background-size: cover;
+
+
+}
+.welcome .contenu{
+    max-width:70%;
+    text-align: center;
+
+    
+}
+
+.welcome .contenu h1{
+    color:rgb(251, 251, 251);
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.contenu p:nth-child(2){
+    color: rgb(242, 239, 245);
+    font-size: 1.2em;
+
+
+} 
+.btn1{
+    font-size: 1em; 
+    color:rgba(150, 63, 22, 0.7);
+    background:rgba(176, 81, 38, 0.7);
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top:20px ;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px ;
+    transition: 0.5s;
+    margin-left:10px ;
+}
+.btn2{
+    font-size: 1em; 
+    color:rgba(150, 63, 22, 0.7);
+    background:rgba(176, 81, 38, 0.7);
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top:20px ;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px ;
+    transition: 0.5s;
+    margin-left:10px ;
+}
+.btn1:hover{
+    letter-spacing: 4px;
+}
+
+
+
+
+
+
+
+section{
+    padding: 100px;
+}
+.r{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.r .abt{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+
+}
+.r .abt1 h2{
+    margin-bottom: -400px;
+
+}
+.titre{
+    color:rgba(176, 81, 38, 0.7);
+    font-size: 3em;
+    font-weight: 400px;
+    text-transform: capitalize;
+}
+.abt p{
+    font-size: larger;
+}
+.r .abt1 img{
+    height: 300px;
+    width: 550px;
+    position: relative;
+}
+
+
+
+
+
+
+.titre1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: x-large;
+}
+.titretx{
+    color: rgba(150, 63, 22, 0.7);
+    
+}
+.menu{
+    margin-top: -100px;
+}
+.menu .contenu1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.menu .contenu1 .box{
+    width: 350px;
+    margin-top: 20px;
+    border:20px solid rgb(242, 239, 245);
+    box-shadow: 20px 15px 35px rgba(0, 0, 0, 0.8);
+
+}
+.menu .contenu1 .box .imbox {
+    position:relative;
+    width: 100%;
+    height: 300px;
+}
+.menu .contenu1 .box .imbox img {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+.menu .contenu1 .box .text{
+    text-align: center;
+    font-weight: 300px;
+    color:rgba(0, 0, 0, 0.8);
+}
+.menu .contenu1 .box .text h3{
+    font-weight: 400;
+}
+
+
+
+
+
+.copyright{
+    padding: 20px 40px;
+    border-top: 2px solid ;
+    background: rgb(255, 253, 253);
+    text-align: center;
+}
+.copyright a{
+    color: rgba(150, 63, 22, 0.7);
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
